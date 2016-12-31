@@ -1,8 +1,8 @@
-#!/bin/bash          
-          echo This script will install Processing-3.1.2-linux64 on Ubuntu 16.04.
+#!/bin/bash
+echo This script will install Processing-3.1.2-linux64 on Ubuntu 16.04.
 
-
-#create folder 
+# The script will place Processing in the opt directory often used to install
+# large software packages 
 mkdir /opt/Processing
 
 #unzip the tarball
